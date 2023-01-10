@@ -1,10 +1,12 @@
-const express = require('express');
+const express = require("express");
 const app = express();
 const apiRouter = require('./routes/api');
+const{port} = require('./config');
 
+
+require('./db/mongoose');
 app.use('/', apiRouter);
 
-const port=3001;
 
 app.listen(port, function(){
     console.log('serwer słucha...');
