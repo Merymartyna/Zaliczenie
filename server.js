@@ -2,10 +2,14 @@ const express = require("express");
 const app = express();
 const apiRouter = require('./routes/api');
 const{port} = require('./config');
+const bodyParser = require('body-parser');
 
 
 require('./db/mongoose');
-app.use('/', apiRouter);
+
+app.use(bodyParser.json());
+
+app.use('/api/', apiRouter);
 
 
 app.listen(port, function(){
