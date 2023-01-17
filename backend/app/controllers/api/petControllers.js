@@ -1,4 +1,4 @@
-const pet = require("../../db/models/pet");
+const pet = require("../../../db/models/pet");
 
 
 class PetControllers {
@@ -13,9 +13,14 @@ class PetControllers {
         const miasto  = req.body.miasto;
         const stan  = req.body.stan;
 
-    
-        const Pet = new pet({imie, gatunek, plec, wiek, wielkosc, miasto, stan});
-        await Pet.save();
+        let Pet;
+        try{
+                Pet = new pet({imie, gatunek, plec, wiek, wielkosc, miasto, stan});
+                await Pet.save();
+        }catch (err) {
+                return res.status(422).json({ message: err.message });
+              }
+
 
        // res.send('Zwierzak został dodany! Informacje: ' + imie + gatunek+ plec+ wiek +wielkosc + miasto + stan);
        res.status(201).json(Pet);
