@@ -19,10 +19,6 @@
       - Adaptacje — remiksuj, zmieniaj i twórz na bazie utworu
       - Dla dowolnego celu, także komercyjnego
 
-### Specyfikacja wymagań
-![2022-04-24_09h12_44](https://user-images.githubusercontent.com/26117702/164964620-736e2f1d-ad2e-4554-9d30-a79e3d69ea0b.png)
-
-
 # Architektura oprogramowania
 ## Architektura rozwoju
       - js
