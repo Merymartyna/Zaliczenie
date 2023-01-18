@@ -39,44 +39,45 @@ import React, {useState} from "react";
                 </div> 
   <div class="row ">
     <label>Imie:</label>
-            <input type="text" value={imie} 
+            <input type="text" class="form-control" value={imie} 
             onChange={changeImieHandler} />
     <div class="row">
     <label>Gatunek:</label>
-            <input type="text" value={gatunek} 
+            <input type="text" class="form-control" value={gatunek} 
             onChange={changeGatunekHandler} />
     </div>
   </div>
   <div className="pet">
   <div class="row">
     <label>Wiek:</label>
-            <input type="text" value={wiek} 
+            <input type="text" class="form-control" value={wiek} 
             onChange={changeWiekHandler}/>
             </div>
     <div class="row">
     <label>Opis:</label>
-            <input type="text" value={wielkosc} 
+            <input type="text" class="form-control" value={wielkosc} 
             onChange={changeWielkoscHandler}/>
     </div>
     <div class="row">
     <label>plec:</label>
-            <input type="text" value={plec} 
+            <input type="text" class="form-control" value={plec} 
              onChange={changePlecHandler}/>
     </div>
     
 
     <div class="row">
     <label>miasto:</label>
-            <input type="text" value={miasto} 
+            <input type="text" class="form-control" value={miasto} 
             onChange={changeMiastoHandler}/>
     </div>
     <div class="row">
     <label>stan:</label>
-            <input type="text" value={stan} 
+            <input type="text" class="form-control" value={stan} 
             onChange={changeStanHandler}/>
     </div>
+    <br/>
     <div class="div d-grid gap-2 col-6 mx-auto">
-    <button class="btn btn-success" onClick={() => editPet()}>Zapisz</button>
+    <button class="btn btn-success" onClick={() => editPet()}>Zapisz</button><br/>
 </div>
   
         

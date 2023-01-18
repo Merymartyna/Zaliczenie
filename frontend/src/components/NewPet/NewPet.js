@@ -42,28 +42,28 @@ setShowForm(false);
 }
     return(
         showForm?(
-        <div className="pet">
+        <div className="pet" class="form-group">
             <label>Imie:</label>
-            <input type="text" value={imie} 
+            <input type="text" class="form-control" value={imie} 
             onChange={changeImieHandler} />
             <label>Gatunek:</label>
-            <input type="text" value={gatunek} 
+            <input type="text" class="form-control" value={gatunek} 
             onChange={changeGatunekHandler} />
             <label>Wiek:</label>
-            <input type="text" value={wiek} 
+            <input type="text" class="form-control" value={wiek} 
             onChange={changeWiekHandler}/>
             <label>Opis:</label>
-            <input type="text" value={wielkosc} 
+            <input type="text" class="form-control" value={wielkosc} 
             onChange={changeWielkoscHandler}/>
             <label>plec:</label>
-            <input type="text" value={plec} 
+            <input type="text" class="form-control" value={plec} 
              onChange={changePlecHandler}/>
             <label>miasto:</label>
-            <input type="text" value={miasto} 
+            <input type="text" class="form-control" value={miasto} 
             onChange={changeMiastoHandler}/>
             <label>stan:</label>
-            <input type="text" value={stan} 
-            onChange={changeStanHandler}/>
+            <input type="text" class="form-control" value={stan} 
+            onChange={changeStanHandler}/><br/>
             <button class="btn btn-success" onClick={()=> addPet()}>Dodaj</button>
         </div>
         ):(<button class="btn btn-success" onClick={()=> setShowForm(true)}>Nowe zwierze</button>)
