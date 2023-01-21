@@ -27,5 +27,5 @@
 
 
 <p>Adopt</p>
-![2022-04-24_09h11_58](https://user-images.githubusercontent.com/26117702/213863477-45890a34-8607-433f-bb59-c27df04e7de2.png)!
+![2022-04-24_09h11_58](https://user-images.githubusercontent.com/26117702/213863477-45890a34-8607-433f-bb59-c27df04e7de2.png)
 
