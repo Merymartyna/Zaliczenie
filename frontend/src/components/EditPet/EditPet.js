@@ -59,19 +59,19 @@ import React, {useState} from "react";
             onChange={changeWielkoscHandler}/>
     </div>
     <div class="row">
-    <label>plec:</label>
+    <label>Płeć:</label>
             <input type="text" class="form-control" value={plec} 
              onChange={changePlecHandler}/>
     </div>
     
 
     <div class="row">
-    <label>miasto:</label>
+    <label>Miasto:</label>
             <input type="text" class="form-control" value={miasto} 
             onChange={changeMiastoHandler}/>
     </div>
     <div class="row">
-    <label>stan:</label>
+    <label>Stan:</label>
             <input type="text" class="form-control" value={stan} 
             onChange={changeStanHandler}/>
     </div>

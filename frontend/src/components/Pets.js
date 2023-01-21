@@ -110,7 +110,7 @@ editPetHandler(pet) {
             </Modal> 
 
            {this.state.pets.map(pet => (
-            <div className="card text-center">
+            <div className="card text-center mt-3">
            <Pet 
             key={pet._id}
             imie={pet.imie}

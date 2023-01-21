@@ -29,7 +29,7 @@ function Pet(props){
             </div>
             {showDesc && (<p>{props.wielkosc}</p>)}
             <div class="container">
-  <div class="row">
+  <div class="row mt-3">
     <div class="col">
       Gatunek: 
     </div>
@@ -67,14 +67,6 @@ function Pet(props){
   </div>
   <div class="row">
     <div class="col">
-      Opis: 
-    </div>
-    <div class="col text-start">
-    <div className='wielkosc'>{props.wielkosc}</div>
-    </div>
-  </div>
-  <div class="row">
-    <div class="col">
       Stan: 
     </div>
     <div class="col text-start">
@@ -82,9 +74,10 @@ function Pet(props){
     </div> 
   </div>
 </div>
-            <div class="d-grid gap-2 col-6 mx-auto">
-            <Button variant="success" onClick={editHandler}>edytuj</Button>
+            <div class="d-grid gap-2 col-6 mt-3 md-3 mx-auto">
+            <Button variant="success" onClick={editHandler}>Edytuj</Button>
             <Button className='delete' variant="danger" onClick={()=>props.onDelete(props.id)}>Usuń</Button>
+            <div class="mt-3"></div>
             </div>
             </div>
     );

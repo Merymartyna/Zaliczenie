@@ -55,18 +55,18 @@ setShowForm(false);
             <label>Opis:</label>
             <input type="text" class="form-control" value={wielkosc} 
             onChange={changeWielkoscHandler}/>
-            <label>plec:</label>
+            <label>Płeć:</label>
             <input type="text" class="form-control" value={plec} 
              onChange={changePlecHandler}/>
-            <label>miasto:</label>
+            <label>Miasto:</label>
             <input type="text" class="form-control" value={miasto} 
             onChange={changeMiastoHandler}/>
-            <label>stan:</label>
+            <label>Stan:</label>
             <input type="text" class="form-control" value={stan} 
             onChange={changeStanHandler}/><br/>
             <button class="btn btn-success" onClick={()=> addPet()}>Dodaj</button>
         </div>
-        ):(<button class="btn btn-success" onClick={()=> setShowForm(true)}>Nowe zwierze</button>)
+        ):(<button class="btn btn-success mt-3" onClick={()=> setShowForm(true)}>Nowe zwierze</button>)
     );
 }
 export default NewPet;
