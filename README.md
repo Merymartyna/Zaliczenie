@@ -4,8 +4,6 @@
 ## Charakterystyka oprogramowania
 - Wewnętrzna aplikacja schroniska "ADOPT"
 
-## Krótki opis ze wskazaniem celu
-
 
 ## Prawa autorskie
 **Autorzy**
@@ -26,8 +24,6 @@
       - C#
       - bootstrap
       - Mongodb
-## Architektura uruchomieniowa
-      -  Visual studio
 
 
 <p>Adopt</p>
