@@ -20,10 +20,10 @@
 # Architektura oprogramowania
 ## Architektura rozwoju
       - js
-      - Visual studio
-      - C#
+      - Visual studio code
       - bootstrap
       - Mongodb
+      - react
 
 
 <p>Adopt</p>
